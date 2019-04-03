@@ -16,3 +16,6 @@ If there is an even number of tweets, or no tweets, an animated image of a quest
 The website is satiracle, commenting on the debate regarding the shape of the Earth, and how there are many tweeters that will post and believe information on the internet without looking into further depth. Schrodinger's Earth gives them a "world" where their tweeting actually makes a difference and matters.
 
 But mostly we just want cats in space.
+
+
+© 2019 Twitter, Inc.

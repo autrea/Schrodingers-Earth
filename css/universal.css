@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	color: white;
+	font-family: 'Space Mono', monospace;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+	perspective: 600px;
+	transform-style: preserve-3d;
+}

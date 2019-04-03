@@ -1,0 +1,72 @@
+.earth__round, .earth__flat {
+	display: none;
+}
+
+.earth__round {
+	width: 100%;
+}
+
+.earth__flat {
+	width: 30%;
+	margin: 0 35%;
+	transform: rotateX(75deg) rotateZ(0deg);
+
+	animation-name: flatEarthSpin;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 100s;
+	-webkit-animation-name: flatEarthSpin;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 100s;
+} 
+
+.earth--water {
+	fill: #5ab5ff;
+}
+
+.earth--ground {
+	fill: #45ff45;
+}
+
+.earth--ice, .star, .cat {
+	fill: #fff;
+}
+
+.cat {
+    width: 30%;
+	font-size: 20vw;
+    display: none;
+    margin: 0 35%;
+    
+    animation-name: catSpin;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 60s;
+	-webkit-animation-name: catSpin;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 60s;
+}
+
+/* Animations */
+
+@keyframes flatEarthSpin {
+	0% {
+		transform: rotateX(75deg) rotateZ(0deg);
+	}
+
+	100% {
+		transform: rotateX(75deg) rotateZ(-360deg);
+	}
+}
+
+@keyframes catSpin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(-360deg);
+    }
+}

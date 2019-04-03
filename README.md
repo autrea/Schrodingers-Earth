@@ -3,7 +3,7 @@
 ## Disclaimer
 Because of varying timezones, an error sometimes appears as tweets will be made "in the future" and won't be registered as having happened "today". In this instance, the website becomes confused and and can't open the box to see what tweets will determine the shape of the Earth.
 
-The error can be fixed by manually inputting the "day" and "date" variables into thek if statement that determines whether a tweet happened "today". There is a line of code demonstrating this commented out next to this.
+The error can be fixed by manually inputting the "currentDay" and "currentDate" variables into thek if statement that determines whether a tweet happened "today". There is a line of code demonstrating this commented out next to this.
 
 ## About the Website
 
